@@ -1,0 +1,12 @@
+{
+  "api_url": "https://api.example.com/v1/sales",
+  "api_key_env": "DATA_PIPELINE_API_KEY",
+  "endpoints": {
+    "daily_sales": "/daily",
+    "inventory": "/inventory",
+    "returns": "/returns"
+  },
+  "retry_count": 3,
+  "timeout_seconds": 30,
+  "output_format": "csv"
+}

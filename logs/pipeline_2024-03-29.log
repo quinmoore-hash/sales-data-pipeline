@@ -1,0 +1,13 @@
+[2024-03-29 08:00:01] INFO: Pipeline started
+[2024-03-29 08:00:01] INFO: Environment check passed
+[2024-03-29 08:00:03] INFO: Fetching data from https://api.example.com/v1/sales/daily
+[2024-03-29 08:00:05] INFO: API response: 200 OK
+[2024-03-29 08:00:05] INFO: Downloaded 24 records to /tmp/data_pipeline/raw/daily_sales_2024-03-29.csv
+[2024-03-29 08:00:06] INFO: Processing CSV file: sales_q1.csv
+[2024-03-29 08:00:06] INFO: Filtered 24 rows, 6 matched region=northeast
+[2024-03-29 08:00:06] INFO: Summary — Total revenue for northeast: $41600.00
+[2024-03-29 08:00:07] WARN: Output directory /tmp/data_pipeline/processed already exists, skipping mkdir
+[2024-03-29 08:00:07] INFO: Moved processed file to /tmp/data_pipeline/processed/sales_northeast_2024-03-29.csv
+[2024-03-29 08:00:07] INFO: Renamed raw file to /tmp/data_pipeline/archive/daily_sales_2024-03-29.csv.done
+[2024-03-29 08:00:08] INFO: Cleanup complete — removed 0 files older than 30 days
+[2024-03-29 08:00:08] INFO: Pipeline finished successfully (exit code 0)

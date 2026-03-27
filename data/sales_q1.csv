@@ -1,0 +1,25 @@
+date,region,product,units_sold,revenue
+2024-01-05,northeast,Widget A,150,4500.00
+2024-01-05,southeast,Widget B,89,2670.00
+2024-01-12,midwest,Widget A,200,6000.00
+2024-01-12,west,Widget C,45,1800.00
+2024-01-19,northeast,Widget B,175,5250.00
+2024-01-19,southeast,Widget A,60,1800.00
+2024-01-26,midwest,Widget C,110,4400.00
+2024-02-02,west,Widget A,95,2850.00
+2024-02-02,northeast,Widget C,300,12000.00
+2024-02-09,southeast,Widget B,42,1260.00
+2024-02-09,midwest,Widget A,180,5400.00
+2024-02-16,west,Widget B,67,2010.00
+2024-02-16,northeast,Widget A,210,6300.00
+2024-02-23,southeast,Widget C,88,3520.00
+2024-03-01,midwest,Widget B,155,4650.00
+2024-03-01,west,Widget A,73,2190.00
+2024-03-08,northeast,Widget C,190,7600.00
+2024-03-08,southeast,Widget A,140,4200.00
+2024-03-15,midwest,Widget B,205,6150.00
+2024-03-15,west,Widget C,38,1520.00
+2024-03-22,northeast,Widget A,165,4950.00
+2024-03-22,southeast,Widget B,91,2730.00
+2024-03-29,midwest,Widget A,120,3600.00
+2024-03-29,west,Widget B,58,1740.00
