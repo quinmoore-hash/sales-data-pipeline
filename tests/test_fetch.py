@@ -4,11 +4,8 @@ from __future__ import annotations
 
 from datetime import date
 from pathlib import Path
-from unittest.mock import patch
-
 import pytest
 import responses
-from responses import matchers
 
 from sales_data_pipeline.config import PipelineConfig
 from sales_data_pipeline.fetch import FetchError, fetch_data
