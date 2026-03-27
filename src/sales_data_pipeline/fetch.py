@@ -79,5 +79,5 @@ def fetch_data(config: PipelineConfig) -> Path:
     output_file.write_bytes(response.content)
     lines = len(response.text.splitlines())
     logger.info("API response: 200 OK")
-    logger.info("Downloaded %d records to %s", lines, output_file)
+    logger.info("Downloaded %d lines (%d records) to %s", lines, max(lines - 1, 0), output_file)
     return output_file
